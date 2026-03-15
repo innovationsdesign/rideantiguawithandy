@@ -3958,3 +3958,64 @@ section,
   background: var(--surface-color);
   color: var(--accent-color);
 }
+
+    .pricing-copy .section-eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f59e0b;
+  margin-bottom: 14px;
+}
+
+.pricing-copy h2 {
+  font-size: 42px;
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.pricing-copy p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 28px;
+  max-width: 560px;
+}
+
+.pricing-highlights {
+  display: grid;
+  gap: 14px;
+}
+
+.pricing-highlights .highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #222;
+}
+
+.pricing-highlights .highlight-item i {
+  color: #f59e0b;
+  font-size: 18px;
+}
+
+#pricing .pricing-item {
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .pricing-copy {
+    text-align: center;
+  }
+
+  .pricing-copy p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing-highlights .highlight-item {
+    justify-content: center;
+  }
+}
