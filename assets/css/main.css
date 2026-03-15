@@ -3920,9 +3920,11 @@ section,
     align-items: center;
     flex-direction: column;
     text-align: center;
+  gap:10px;
 
   h1{
     position:relative;
+    padding:20px 0px;
 
     &::after{
       position:absolute;
@@ -3934,4 +3936,25 @@ section,
       height:4px;
       background:orange;
       content:'';
+}
+
+
+
+    .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.btn-get-started:hover {
+  background: var(--surface-color);
+  color: var(--accent-color);
 }
