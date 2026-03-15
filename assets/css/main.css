@@ -998,7 +998,9 @@ section,
   align-items: center;
   justify-content: center;
   overflow: hidden;
+    
 }
+
 
 .hero .info {
   position: relative;
@@ -1064,6 +1066,24 @@ section,
 .hero .info .btn-get-started:hover {
   background: var(--surface-color);
   color: var(--accent-color);
+}
+
+
+
+
+
+.hero-overlay {
+    position: absolute;
+    z-index: 999;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 700px; */
+    flex-direction: column;
 }
 
 .hero .carousel {
