@@ -151,7 +151,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 100px; /*36px;*/
   margin-right: 8px;
 }
 
@@ -226,8 +226,8 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #5b5b5b;
-  --nav-color: #ffffff;
+  --background-color:#fff; /* #5b5b5b;*/
+  --nav-color: #5b5b5b;
 }
 
 /*--------------------------------------------------------------
